@@ -11,6 +11,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     height:1200px;
 
+    
 }
 
 h1{
@@ -62,7 +63,7 @@ li{
     border:4px;
     
 }
-.landing{
+.landingpageimages{
     display:flex;
     justify-content: center;
     gap:48px;
@@ -92,12 +93,18 @@ li{
 
 }
 .headtext{
+    display:flex;
+    justify-content: center;
     font-size:116px;
     font-family:'Times New Roman', Times, serif;
-    padding:4px;
-    padding-left:32px;
-   word-wrap:normal;
+    padding:32px;
+    /* padding-left:64px; */
+   /* word-wrap:normal; */
+   background:conic-gradient(from 90deg at 1px 1px,transparent, #0000 90deg, rgb(125, 125, 209) 0)
+        0 0/50px 50px;
+       
 }
+
 
 .card img{
     object-fit:cover;
@@ -105,3 +112,48 @@ li{
     width:100%;
     border-radius:64px;
 }
+.bodytext{
+    display:flex;
+    padding-left:32px;
+    justify-items:center;
+    /* align-items:center; */
+    gap:2.3%;
+    flex-wrap:wrap;
+
+}
+    .text{
+    padding-bottom:64px;
+    flex-basis:31%;
+    flex-wrap:wrap;
+}
+
+.circle{
+    height:10px;
+    width:10px;
+    background-color:rgb(119, 174, 182);
+    border-radius:50%;
+    display:inline-block;
+    margin-right:8px;
+    margin-bottom:0px;
+}
+.headerbackground{
+    background:conic-gradient(from 90deg at 1px 1px, #0000 90deg, rgb(125, 125, 209) 0)
+        0 0/50px 50px;
+    
+}
+#contactphone{
+    display:flex;
+    justify-content:flex-end;
+    padding:4px;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+}
+
+
+
+
+
+
